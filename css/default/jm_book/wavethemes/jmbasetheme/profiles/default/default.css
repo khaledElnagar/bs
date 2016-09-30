@@ -1,0 +1,222 @@
+
+
+/* Base settings */
+body#bd {
+	background-image:url("images/index.html");
+	background-color: ;
+}
+
+#jm-head {
+	background-image:url("images/index.html");
+	background-color: ;
+}
+
+
+#jm-header {
+	background-image:url("images/index.html");
+	background-color: ;
+}
+
+
+#jm-footer {
+	background-image:url("images/index.html");
+	background-color: ;
+}
+
+
+
+#jm-tops1 {
+	background-image:url("images/index.html");
+	background-color: ;
+}
+
+#jm-tops2 {
+	background-image:url("images/index.html");
+	background-color: ;
+}
+
+#jm-pathway,
+#jm-container {
+	background-image:url("images/index.html");
+	background-color: ;
+}
+
+
+#jm-mass-bottom {
+	background-image:url("images/index.html");
+	background-color: ;
+}
+
+#jm-bots1 {
+	background-image:url("images/index.html");
+	background-color: ;
+}
+
+a,
+p.required,
+.jm-mask-desc a.readon,
+.block-cart  .summary a,
+ul.customer-services li a:active,
+ul.customer-services li a:focus,
+ul.customer-services li a:hover,
+.account-login .content h2,
+.addresses-list h2,
+.add-to-cart label,
+.jm-slider .product-name a:active,
+.jm-slider .product-name a:focus,
+.jm-slider .product-name a:hover,
+.advanced-search-summary strong,
+.availability.out-of-stock span,
+.availability-only strong,
+.blank .jm-tabs-title-top ul li:hover h3, 
+.blank .jm-tabs-title-top ul li.active h3, 
+.blank .jm-tabs-title-top ul li.firstactive h3, 
+.blank .jm-tabs-title-top ul li.lastactive h3,
+.block-cart.product-details .edit:active,
+.block-cart .product-details .edit:focus,
+.block-cart .product-details .edit:hover,
+.block-cart .product-details .remove:active,
+.block-cart .product-details .remove:focus,
+.block-cart .product-details .remove:hover,
+.block-compare .block-content .product-name a,
+.block-layered-nav dd li a:active .price,
+.block-layered-nav dd li a:focus .price,
+.block-layered-nav dd li a:hover .price,
+.block-layered-nav dd li a:active,
+.block-layered-nav dd li a:focus,
+.block-layered-nav dd li a:hover, 
+.block-poll .block-subtitle, 
+.block-progress dd.complete a,
+.block-shipping .list-shipping li .title,
+.block-verticallist h5 a:active,
+.block-verticallist h5 a:focus,
+.block-verticallist h5 a:hover,
+.box-account .box-head h2,
+.breadcrumbs a,
+.breadcrumbs a:active,
+.breadcrumbs a:focus,
+.breadcrumbs a:hover,
+.block-grid  li h5 a:active,
+.block-grid  li h5 a:focus,
+.block-grid  li h5 a:hover,
+.cart-collaterals  .price,
+.cart-table .item-msg,
+.cart-table a,
+.error-msg,
+.jm-home-product-deals .products-grid .product-name a,
+.jm-home-product-deals .products-grid .deals-info div.deal-price span.price,
+.compare-table tr.first td .product-name a:active,
+.compare-table tr.first td .product-name a:focus,
+.compare-table tr.first td .product-name a:hover,
+.catalog-product-compare-index .link-reorder,
+.catalog-product-compare-index .link-print,
+.catalog-product-compare-index .link-cart,
+.availability-only-details tr.odd td.last,
+.block-account .block-content li a:hover,
+.block-account .block-content li.current,
+.fieldset .legend ,
+.gift-messages h3,
+.info-set .box h2,
+.link-reorder,
+.link-print,
+.link-cart,
+.multiple-checkout .box h2,
+.multiple-checkout h3,
+.multiple-checkout h4,
+.notice,
+.subtitle,
+.sub-title,
+#jm-footer a,
+.pages ol li a:active,
+.pages ol li a:focus,
+.pages ol li a:hover,
+.pages ol li.current,
+.product-options dt,
+.shop-access li a:active,
+.shop-access li a:focus,
+.shop-access li a:hover,
+.gift-messages-form h4,
+.tier-prices-grouped li,
+#jm-mycart .mycart-toggle a,
+.opc .active .step-title h2,
+.block-verticallist .slider-inner .price,
+.products-grid  .price,
+.products-list .price,
+ul.ja-tab-navigator li.active a,
+.products-list .product-name a:active, 
+.products-list .product-name a:focus, 
+.products-list .product-name a:hover,
+#jm-bots1 .block-location a:active,
+#jm-bots1 .block-location a:focus,
+#jm-bots1 .block-location a:hover,
+.products-grid .product-name a:active,
+.products-grid .product-name a:focus,
+.products-grid .product-name a:hover
+.product-options-bottom .tier-prices,
+.product-options dt label.required em,
+.product-options ul.options-list .label,
+.product-options-bottom .product-pricing,
+.jm-megamenu ul.level2 li.mega.active a.mega,
+.jm-megamenu ul.level2 li.mega a.mega:active,
+.jm-megamenu ul.level2 li.mega a.mega:focus,
+.jm-megamenu ul.level2 li.mega a.mega:hover,
+.product-options-bottom .tier-prices .price,
+.product-options-bottom .tier-prices .benefit,
+.jm-megamenu .products-grid  .price-box .price,
+.multiple-checkout .data-table .icoremove,
+.multiple-checkout .data-table .product-name a,
+.multiple-checkout .place-order .grand-total .price,
+.jm-megamenu .products-grid .product-name a:active,
+.jm-megamenu .products-grid .product-name a:focus,
+.jm-megamenu .products-grid .product-name a:hover,
+.jm-two-products .products-list .price-box span.price,
+.block-top-book .products-list  .item.top-product .price ,
+.block-related .block-content li.item .product-name a:active,
+.block-related .block-content li.item .product-name a:focus,
+.block-related .block-content li.item .product-name a:hover,
+.jm-two-products .products-list .product-information .product-name a:active,
+.jm-two-products .products-list .product-information .product-name a:focus,
+.jm-two-products .products-list .product-information .product-name a:hover {
+  color: #F0141E;
+}
+
+#jm-header,
+#button-btt,
+.demo-notice,
+button.button, 
+button.form-button,
+.checkout-progress li,
+.jm-slide-buttons span.jm-slide-prev:hover,
+.jm-slide-buttons span.jm-slide-prev:focus,
+.jm-slide-buttons span.jm-slide-next:hover,
+.jm-slide-buttons span.jm-slide-next:focus,
+.remember-me-popup .remember-me-popup-body a,
+.jm-two-products .products-list button.button:active,
+.jm-two-products .products-list button.button:hover,
+.jm-two-products .products-list button.button:focus,
+.jm-product-quick-view .product-shop button.button:hover,
+.jm-product-quick-view .product-shop button.button:focus {
+	background-color: #F0141E;
+}
+
+.error-msg,
+.remember-me-popup .remember-me-popup-body a,
+.jm-two-products .products-list button.button:active,
+.jm-two-products .products-list button.button:hover,
+.jm-two-products .products-list button.button:focus {
+	border-color: #F0141E;
+}
+.jm-megamenu ul.level0 li.mega a.active,
+.jm-megamenu ul.level0 li.mega a.mega:hover, 
+.jm-megamenu ul.level0 li.mega:hover > a.mega {
+	background-color: #D8121B;
+}
+.jm-megamenu ul.level0 li.mega a.mega.first,
+.jm-megamenu ul.level0 li.mega a.mega{
+	border-color: #D8121B;
+}
+
+#jm-mainnav .btn-toggle{
+	background: #F0141E;
+    border: 1px solid #fff;
+}

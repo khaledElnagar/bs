@@ -1,0 +1,317 @@
+img { border: none; }
+
+/* image replacement */
+.graphic {
+	display: block;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	text-indent: -8000px;
+}
+
+/* // image replacement */
+.jm-products-slider-listing {
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+}
+.jm-tabs  .jm-products-slider-listing {
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+}
+
+.jm-products-slider-content{ 
+	position: relative; 
+	padding: 15px 0;
+	overflow: hidden;
+}
+
+
+.jm-tabs   .jm-products-slider-content {
+  overflow: hidden;
+}
+
+/* Easy Slider */
+.jm-slider { overflow: hidden; width: 0px; float: left;}
+
+.jm-slider ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.jm-slider li {
+	overflow: hidden;
+	float: left;
+	margin: 0;
+	text-align: left;
+	display: block;
+}
+
+.jm-slider li .product-image{
+	margin: 5px 0px 5px 0px;
+	position: relative;
+}
+
+.jm-slider li .product-image a.product-img{
+	border: 1px solid transparent;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	display: block;
+	padding: 5px;
+	margin: -5px 0 0 -5px;
+}
+
+.jm-slider li:hover .product-image a.product-img,
+.jm-slider li:focus .product-image a.product-img{
+	border: 1px solid #ccc;
+	transition: all 0.25s ease-in-out;
+	box-shadow: 0 0 3px #e0e0e0;
+	-moz-box-shadow: 0 0 3px #e0e0e0;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-box-shadow: 0 0 3px #e0e0e0;
+	-webkit-transition: all 0.25s ease-in-out
+}
+
+.jm-slider li .product-image a.product-img img{
+	width: 100%;
+}
+
+.jm-slider li .product-image .actions{
+	position: absolute;
+	right: 7px;
+	bottom: 6px;
+	z-index: 10;
+}
+
+.jm-slider .ratting-product-slide {
+	display: block;
+	height: 13px;
+	line-height: 13px;
+	margin: 0 0 20px;
+}
+
+.jm-slider .ratting-product-slide {
+	padding: 0;
+}
+
+.jm-slider .ratting-product-slide .rating-links{
+	display: none;
+}
+
+.jm-slider .product-name a{	
+	color: #000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.jm-slider .product-name {
+	margin: 0;
+}
+
+.jm-slider .product-name a:hover{	
+	color: #F0141E;
+}
+
+.jm-slider .author {
+	color: #999;
+	font-size: 100%;
+	width: 100%;
+	margin: 5px 0;
+	display: block;
+}
+
+.jm-slider li .add-to-links{
+	display: none;
+}
+
+.jm-slider li .price-box {
+  clear: both;
+  display: block;
+  float: none;
+  margin: 5px 0 0;
+  float: left;
+}
+
+/*.jm-slider a { position: relative; } */
+
+.jm-prev {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+	color: #CCCCCC;
+    cursor: pointer;
+    height: 18px;
+    right: 45px;
+    line-height: 17px;
+    position: absolute;
+    text-align: center;
+	top: -50px;
+    width: 18px;
+    z-index: 10;
+	display: block !important;
+}
+
+.jm-next {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+	color: #CCCCCC;
+    cursor: pointer;
+    height: 18px;
+    right: 20px;
+    line-height: 17px;
+    position: absolute;
+    text-align: center;
+	top: -50px;
+    width: 18px;
+    z-index: 10;
+	display: block !important;
+}
+
+.jm-prev:hover,
+.jm-next:hover{
+	color: #000;
+}
+
+.jm-slide-left-img,
+.jm-slide-right-img {
+	position: absolute;
+	top: 70px;
+	cursor: pointer;
+	z-index:999;
+}
+
+
+/* scroller */
+.has-hscrollbar {
+	padding-bottom: 30px;
+}
+
+.customScrollerContainer {
+
+}
+.customScrollerContent {
+
+}
+
+/* SCROLLER STYLE */
+/* VERTICAL */
+.divVScrollerBar {
+	width: 18px;
+	margin-left: 1px;
+}
+
+/* ORIZONTAL */
+.divOScrollerBar {
+	height: 18px;
+	margin-top: 1px;
+}
+
+/* AREA UP */
+.divVScrollerBarUp {
+	cursor: pointer;
+	height: 17px;
+}
+/* AREA LEFT */
+.divOScrollerBarLeft {
+	cursor: pointer;
+	width: 17px;
+}
+/* AREA DOWN */
+.divVScrollerBarDown {
+	cursor: pointer;
+	height: 17px;
+}
+/* AREA RIGHT */
+.divOScrollerBarRight {
+	cursor: pointer;
+	width: 17px;
+}
+/* ARROW UP AND DOWN */
+.divVScrollerBarUp span,
+.divVScrollerBarDown span {
+	display: block;
+	border: 1px solid #dae4eb;
+	width: 16px;
+	height: 15px;
+	line-height: 0;
+	font-size: 0;
+}
+.divVScrollerBarUp span {
+	background: #baccda url(../images/vtop.gif) no-repeat center center;
+}
+.divVScrollerBarDown span {
+	background: #baccda url(../images/vbottom.gif) no-repeat center center;
+}
+/* ARROW LEFT AND RIGHT */
+.divOScrollerBarLeft span,
+.divOScrollerBarRight span {
+	display: block;
+	
+	height: 16px;
+	width: 15px;
+	line-height: 0;
+	font-size: 0;
+}
+.divOScrollerBarLeft span {
+	background: #ffffff url(../images/re-left.gif) no-repeat center center;
+}
+.divOScrollerBarRight span {
+	background: #ffffff url(../images/re-right.gif) no-repeat center center;
+}
+
+/* ARROWS HOVER */
+.divVScrollerBarUp span.hover,
+.divOScrollerBarLeft span.hover,
+.divVScrollerBarDown span.hover,
+.divOScrollerBarRight span.hover {
+	
+	background-color: #527fa2;
+}
+
+/* TRACE */
+.divVScrollerBarTrace, .divOScrollerBarTrace {
+	background: url(../images/line.gif) repeat-x left center;
+	line-height: 0;
+	font-size: 0;
+}
+
+/* CURSORS */
+.divVScrollerBarCursor {
+	cursor: pointer;
+}
+.divOScrollerBarCursor {
+	cursor: pointer;
+}
+.divVScrollerBarCursor span {
+	display: block;
+	border-left: 1px solid #dae4eb;
+	border-right: 1px solid #dae4eb;
+	height: 100%;
+	width: 16px;
+	background: #baccda url(../images/vcursor.gif) no-repeat center center;
+	line-height: 0;
+	font-size: 0;
+}
+.divOScrollerBarCursor span {
+	display: block;
+	border-top: 1px solid #dae4eb;
+	border-bottom: 1px solid #dae4eb;
+	height: 10px;
+	width: 100%;
+	background: #cccccc url(../images/ocursor.gif) no-repeat center center;
+	font-size: 0;
+	margin-top:3px;
+}
+/* CURSORS HOVER */
+.divVScrollerBarCursor span.hover {
+	border-left: 1px solid #a3bbce;
+	border-right: 1px solid #a3bbce;
+	background-color: #527fa2;
+}
+.divOScrollerBarCursor span.hover {
+	border-top: 1px solid #a3bbce;
+	border-bottom: 1px solid #a3bbce;
+	background-color: #cccccc;
+}

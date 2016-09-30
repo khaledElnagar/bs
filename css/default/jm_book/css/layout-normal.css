@@ -1,0 +1,244 @@
+/*!
+ * Theme Name: JM Team
+ * Theme URI: http://www.joomlart.com
+ * Version: 1.0
+ * Description: 
+ * Author: JM Team - Joomlart.com
+ * Author URI: http://www.joomlart.com
+ * 
+ * Powered by Magento
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+/* MAIN CONTAINER
+--------------------------------------------------------- */
+.wrap {
+	min-width: 1024px;
+}
+
+.main {
+	text-align: left;
+	width: 1000px;
+}
+
+.form-list .field{
+	width: 48.5%;
+}
+
+.form-list .field + .field{
+	float: right;
+}
+
+.form-list li.wide .input-box,
+.form-list .input-box,
+.cart .discount .input-box{
+	width: 100%;
+}
+
+.form-list li.wide input.input-text,
+.cart .discount input.input-text,
+.cart-collaterals .input-box .input-text,
+.form-list input.input-text {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width: 100%;
+}
+
+.form-list select,
+.shipping-form .form-list select,
+.checkout-multishipping-address-newshipping .form-list select {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width: 100%;
+}
+
+/*header*/
+#logo{
+	width: 155px;
+}
+
+.form-search{
+	min-width: 100px;
+}
+
+.form-search .input-text{
+	min-width: 160px;
+}
+
+/*slide*/
+#jm-tops1 .block-slideshow.col-1{
+	width: auto;
+}
+
+/* Home: tab*/
+.cms-home .jm-tab-content,
+.cms-home .tabs_content{
+	width: 100% !important;
+}
+
+.jm-tabswrap .jm-tab-content li,
+.jm-tabswrap .jm-tab-content li.item {
+	padding: 5px 9px 5px 8px;
+	width: 150px !important;
+}
+
+.home-slider .jm-next{
+	right: 0px;
+	top: -56px;
+}
+
+.home-slider .jm-prev{
+	right: 27px;
+	top: -56px;
+}
+
+/* category page*/
+.jm-two-products .products-list .product-information{
+	width: 45%;
+}
+/*-- toolbar */
+.toolbar label,
+.pages ol li {
+	font-size: 100%;
+}
+
+.view-mode,
+.pages,
+.limiter,
+.sort-by{
+	padding: 0px 15px;
+}
+
+/* Product: grid*/
+.products-grid li.item.first{
+	clear: none;
+}
+
+.home-product-list .products-grid li.item,
+.catalog-category-view .products-grid li.item,
+.catalogsearch-result-index .products-grid li.item{
+	min-height: 340px;
+}
+
+.home-product-list .products-grid li.item{
+	min-height: 355px;
+}
+
+/* Product: list*/
+.products-list .product-shop{
+	width: 70%;
+}
+
+/*Product: detail*/
+.product-view .product-shop{
+	width: 420px;
+}
+
+.ja-tab-content{
+	width: 72%;
+}
+
+/*Contacts page*/
+.info-inner p,
+.jm-contacts .fieldset{
+	width: 680px;
+}
+
+.jm-contacts .form-list li.wide .input-box{
+	width: 100%;
+}
+
+.jm-contacts .form-list .field{
+	width: 31%;
+}
+
+.jm-contacts .form-list .field + .field{
+	float: left;
+	margin: 0px 0px 0px 25px;
+}
+
+.jm-contacts .form-list .field + .field + .field{
+	float: right;
+	margin: 0px;
+}
+
+.jm-contacts .form-list li.wide textarea{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width: 100%;
+}
+
+/* logo brand*/
+#jm-mass-bottom ul li{
+	margin: 0px 7px;
+}
+
+#jm-mass-bottom ul li:first-of-type{
+	margin: 0px 7px 0px 0px;
+}
+
+#jm-mass-bottom ul li:last-of-type{
+	margin: 12px 0px 0px 7px;
+}
+
+#jm-mass-bottom ul li img{
+	vertical-align: middle;
+}
+
+/*Footer*/
+.block-subscribe .input-box .input-text{
+	border-radius: 0px;
+}
+
+/*My account */
+.billing-agreements .form-list li select{
+	width: 180px;
+}
+
+/*Home: deal*/
+.jm-home-product-deals .products-grid li.item{
+	float: left;
+}
+
+.jm-home-product-deals .products-grid .product-image{
+	width: 146px;
+}
+
+.jm-home-product-deals.grid .listing-type-grid{
+	height: 250px;
+}
+
+.jm-home-product-deals .products-grid .product-image .inner{
+	min-height: 190px;
+}
+
+.contentdealContainer{
+	width: 0px !important
+}
+
+.contentdealSelected{
+	width: 265px !important;
+}
+
+.cms-home #jm-tops3,
+.cms-home #jm-mass-top{
+	display: none;
+}
+
+.home-product-list{
+	margin: 0px;
+}
+
+
+/* Onepage Checkout*/
+.form-list li.control input.radio, 
+.form-list li.control input.checkbox{
+	margin: 2px 5px 0 0;
+}
+
+.opc .buttons-set{
+	padding-top: 0px;
+}
